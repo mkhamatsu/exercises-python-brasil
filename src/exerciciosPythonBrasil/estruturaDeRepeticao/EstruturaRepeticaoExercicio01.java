@@ -3,8 +3,8 @@ package exerciciosPythonBrasil.estruturaDeRepeticao;
 import java.util.Scanner;
 
 /* 
-Faça um programa que peça uma nota, entre zero e dez. 
-Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+ Faça um programa que peça uma nota, entre zero e dez. 
+ Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 */
 
 public class EstruturaRepeticaoExercicio01 {
@@ -13,9 +13,8 @@ public class EstruturaRepeticaoExercicio01 {
 
 		Scanner scan = new Scanner(System.in);
 		int note;
-		
-// Resolução com DO WHILE
-		
+
+// Resolução com Do While
 		do {
 			System.out.println("Digite uma nota entre 0 e 10: ");
 			note = scan.nextInt();
@@ -25,16 +24,16 @@ public class EstruturaRepeticaoExercicio01 {
 		} while (note < 0 || note > 10);
 		System.out.println("A nota digitada foi " + note + ".");
 
-// Resolução com WHILE		
-/*		
- 		System.out.println("Digite uma nota entre 0 e 10: ");
-		note = scan.nextInt();
-		while (note < 0 || note > 10) {
-			System.out.println("A nota digitada " + note + " é invalida.\nDigite uma nota entre 0 e 10.");
-			note = scan.nextInt();
-		}
-		System.out.println("A nota digitada foi " + note + ".");
-*/
+// Resolução com While
+//		System.out.println("Digite uma nota entre 0 e 10: ");
+//		note = scan.nextInt();
+//		while (note < 0 || note > 10) {
+//			System.out.println("A nota digitada " + note + " é invalida.\nDigite uma nota entre 0 e 10.");
+//			note = scan.nextInt();
+//		}
+//		System.out.println("A nota digitada foi " + note + ".");
+
 		scan.close();
+
 	}
 }
