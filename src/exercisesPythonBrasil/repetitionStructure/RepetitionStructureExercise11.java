@@ -8,7 +8,7 @@ import java.util.Scanner;
  Altere o programa anterior para mostrar no final a soma dos números.
 */
 
-public class RepetitionStructureExercises11 {
+public class RepetitionStructureExercise11 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
