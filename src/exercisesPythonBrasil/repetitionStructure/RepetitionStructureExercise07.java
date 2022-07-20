@@ -15,7 +15,7 @@ public class RepetitionStructureExercise07 {
 
 		Scanner scan = new Scanner(System.in);
 
-		List<Integer> numberList = new ArrayList<Integer>(5);
+		List<Integer> numberList = new ArrayList<Integer>();
 		int count = 0;
 		int size = 5;
 
