@@ -28,6 +28,6 @@ public class RepetitionStructureExercise04 {
 		System.out.println("Population A: " + populationA);
 		System.out.println("Population B: " + populationB);
 		System.out.println("The populationA is equal or bigger than populationB in " + years + " years.");
-
+		
 	}
 }
