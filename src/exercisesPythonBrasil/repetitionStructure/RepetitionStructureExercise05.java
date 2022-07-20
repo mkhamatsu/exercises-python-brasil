@@ -45,7 +45,6 @@ public class RepetitionStructureExercise05 {
 			if (repeat.equalsIgnoreCase("N")) {
 				toContinue = false;
 			}
-
 		}
 
 		scan.close();
