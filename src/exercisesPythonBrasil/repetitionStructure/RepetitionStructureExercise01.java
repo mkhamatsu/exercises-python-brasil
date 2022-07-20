@@ -27,6 +27,7 @@ public class RepetitionStructureExercise01 {
 // Resolução com While
 //		System.out.println("Type a note between 0 and 10: ");
 //		note = scan.nextInt();
+//		
 //		while (note < 0 || note > 10) {
 //			System.out.println("This note " + note + " is invalid.\nType a note between 0 and 10: ");
 //			note = scan.nextInt();

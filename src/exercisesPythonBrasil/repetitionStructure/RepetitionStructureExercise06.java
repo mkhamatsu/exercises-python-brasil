@@ -22,7 +22,7 @@ public class RepetitionStructureExercise06 {
 
 // Resolução com While
 //		int start = 1;
-//		int end = 20;
+//		int end = 20;it
 //
 //		while (start <= end) {
 //			System.out.println(start);// um abaixo do outro
