@@ -25,7 +25,6 @@ public class RepetitionStructureExercise05 {
 
 			System.out.println("Growth percentage A: ");
 			double growthPercentageA = (1 + scan.nextDouble());
-			
 			System.out.println("Growth percentage B: ");
 			double growthPercentageB = (1 + scan.nextDouble());
 
