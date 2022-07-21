@@ -28,7 +28,6 @@ public class RepetitionStructureExercise14 {
 			} else {
 				oddNumbers.add(inputNumber);
 			}
-
 		}
 
 		System.out.println("Even numbers: " + evenNumbers.size());
